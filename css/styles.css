@@ -10,6 +10,10 @@ body {
 	margin: 0;
 }
 
+main h1{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
 main p{
 	text-align:center;
 	font-family: 'Roboto Condensed', sans-serif;
@@ -77,41 +81,6 @@ img{
     grid-gap: 20px;
 }
 
-/* nav links*/
-
-
-nav ul{
-	list-style-type: none;
-	text-align: center;
-}
-
-nav li {
-    font-size: 1.5em;
-    font-family: 'Francois One', sans-serif;
-    border-top: 1px solid #fff;
-}
-
-nav li:first-child {
-    border-top: none;
-}
-
-nav li h1{ 
-	color: #fff;
-	background-color: black;
-	margin: auto;
-}
-
-nav li a{
-	color: #000;
-	text-decoration: none;
-	display: block;
-	background-color: blue;
-}
-
-nav li a:hover {
-	color: #000;
-    background-color: #fff;
-}
 
 #history img{
 	float: left;
