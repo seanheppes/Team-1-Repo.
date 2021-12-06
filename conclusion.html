@@ -15,7 +15,7 @@ body {
   background-color:#e6e6e6;
 }
 
-ul {
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -26,23 +26,23 @@ ul {
   overflow: auto;
 }
 
-li a {
+nav li a {
   display: block;
   color: #000;
   padding: 8px 16px;
   text-decoration: none;
 }
 
-li{
+nav li{
 font-family: Verdana, Arial, sans-serif;
 }
 
-li a.active {
+nav li a.active {
   background-color: #3a81de;
   color: white;
 }
 
-li a:hover:not(.active) {
+nav li a:hover:not(.active) {
   background-color: #000000;
   color: white;
 }
@@ -56,25 +56,43 @@ margin: 0;
 </style>
 </head>
 <body>
+<nav>
 <ul>
-<li><a href = "example1.html">Home</a></li>
-<li><a href = "template.html">Precursors</a></li>
-<li><a href = "how-it-works.html"> How it works</a></li>
-<li><a href = "impementations.html">Implications</a></li>
-<li><a href = "how-it-is-used.html">How it is used</a></li>
-<li><a href = "bibliography.html"> Bibliography</a></li>
+	<li><a href = "index.html">Home</a></li>
+	<li><a href = "precursors.html">Precursors</a></li>
+	<li><a href = "conclusion.html" class = "active"> How it works</a></li>
+	<li><a href= "implications.html" >Implications</a></li>
+	<li><a href = "Companies.html">How it is used</a></li>
+	<li><a href = "presentation.html"> Presentation slides</a></li>
+	<li><a href = "bibliography.html"> Bibliography</a></li>
 </ul>
+</nav>
 <main>
-<div id = "precursors" style="margin-left:15%;padding:1px 16px;height: 1000px">
+<div id = "precursors" style="margin-left:15%;padding:1px 16px;">
   <div id = "history">
-  <h1><!--place you title here-->Conclusion</h1>
-  <img src = "images/peter-shor.jpg" width = "400px" height = "400px">
-  <p style = "margin-top:30px;"><!-- place your text here-->Quantum Computing is an extremely complex supercomputer with light speed processing
-This could be very beneficial to the general public as well as the cybersecurity world
-Quantum computers could help programmers build firewalls to secure data networks more efficiently
-Will be used in developing self driving cars and the technology related to this technology
-Within the next 15-20 years, every country will have to train special IT professionals in learning how to operate the quantum computer
+  <h1><!--place you title here-->What it does</h1>
+  <p style = "margin-top:30px;"><!-- place your text here-->
+  
+<img src = "images/computer-comparison.png" width = "200px" height = "280px" style = " margin-top: 0%; margin-right: 5%; " >
+<ul style = "font-family: 'Roboto Condensed', sans-serif;
+font-size: 1.5em;">
+<li>Quantum computing is like a regular computer but it runs on a different level of speed on how it processes information</li>
+<li>Like regular computers that take 0’s and 1’s at a certain rate quantum computing does 1’s and 0’s at the same time.</li> 
+<li>It harnesses the phenomena of quantum mechanics to deliver a huge leap forward in computation to solve certain problems</li>
+<li>It solves problems that regular computers can’t solve</li>
+<li>quantum computing solves these problems using a NP problem which tries every possible solution to figure out and find the solution</li>
+</ul>
+</p>
+</div>
 
+<div id = "how it works">
+<h1>How it works</h1>
+<p>
+<ul style = "font-family: 'Roboto Condensed', sans-serif;
+font-size: 1.5em;">
+<li>Quantum computers create vast multidimensional spaces to represent a very large problem. Classical supercomputers cannot do this.</li>
+<li>Have algorithms that employ quantum wave interference that are then used to find solutions, and then translate them back into forms we can use and understand</li>
+</ul>
 </p>
   </div>
 </div>
